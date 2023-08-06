@@ -1,8 +1,13 @@
 import React, { useRef,useState } from 'react';
+import './Contact.css';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-   const form = useRef()
+
+  const[name,setName]=useState('');
+  const[email,setEmail]=useState('');
+  const[message,setMessage]=useState('');
+   const form = useRef();
 
   const sendEmail=(e)=>{
     e.preventDefault();
@@ -10,7 +15,11 @@ const Contact = () => {
     emailjs.sendForm('service_cpshpto', 'template_60h1uhe', form.current, '_tyZbxBQiPJz0uyVy')
       .then((result) => {
           console.log(result.text);
-          setDone(true)
+          setDone(true);
+          setName('')
+          setEmail('')
+          setMessage('')
+
       }, (error) => {
           console.log(error.text);
       });
@@ -33,19 +42,31 @@ const Contact = () => {
               <input
                 type="text"
                 name="user_name"
+                value={name}
+                onChange={(e)=>{
+                  setName(e.target.value)
+                }}
                 placeholder="name"
                 className="form-control"
               />
               <input
                 type="email"
+                  value={email}
+                   onChange={(e)=>{
+                  setEmail(e.target.value)
+                }}
                 name="user_email"
                 placeholder="your-email"
-                className="form-control"
+                className="form-control-email"
               />
               <textarea
                 name="message"
+                 value={message}
+                   onChange={(e)=>{
+                  setMessage(e.target.value)
+                }}
                 rows="5"
-                placeholder="message"
+                placeholder="enter-your-message"
                 className="form-control"
               ></textarea>
             </div>
@@ -55,7 +76,7 @@ const Contact = () => {
          
           </form>
         </article>
-           {done&&"Your-essage-was-succesfully-receied"}
+          <div className='sent'>{done&&"Message-succesfully-recevied."}</div> 
       </section>
 
   )

@@ -5,7 +5,7 @@ import './Projects.css'
 const Projects = () => {
   return (
    
-   <>
+   <div className='projects'>
     <h2 className="service-section-title">Projects</h2>
     
      <div className="section-underline"></div>
@@ -31,13 +31,13 @@ const Projects = () => {
 
     <div>
   
-    <p>To access more of my projects visit my github.click button.below</p>
+    <p>To access more of my projects visit my github-account</p>
     <button className='btn'><a href="https://github.com/GodwinTerrific" target="_blank" rel="noopener noreferrer" >TO-github </a></button>
    
     </div>
 
 
-   </>
+   </div>
   )
 }
 

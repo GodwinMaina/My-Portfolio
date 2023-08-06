@@ -21,13 +21,13 @@ const socialLinks = [
   {
     id: 3,
     icon: <FaGithubSquare className="social-icon"></FaGithubSquare>,
-    url: "https://www.twitter.com",
+    url: "https://github.com/GodwinTerrific",
   },
   
   {
     id: 4,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    url: "https://twitter.com/GodwinTerrific",
   },
 
 ]

@@ -18,6 +18,7 @@ const {toggleSidebar}=useContext(AppContext);
   <div className='nav-header'>
   <Link to='/' >
   <img src={G} alt='Godwin' style={{width:'65px',height:'70px'}}/></Link>
+  {/* <div style={{margin:'10px'}}>{new Date().getFullYear()}</div> */}
    <button type="button" className="toggle-btn" onClick={toggleSidebar}>
             <FaBars />
             <Sidebar/>

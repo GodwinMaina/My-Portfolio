@@ -1,8 +1,4 @@
-/*
-=============== 
-Skills
-===============
-*/
+
 @media screen and (min-width: 768px) {
   .skills-center {
     display: grid;
@@ -16,6 +12,8 @@ Skills
 }
 .skills {
   background: var(--clr-primary-10);
+  margin-bottom: 1.25rem;
+
   
 
 }

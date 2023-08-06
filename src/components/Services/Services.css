@@ -1,4 +1,5 @@
 
+
 /*
 =============== 
 Services
@@ -47,8 +48,8 @@ Services
   }
 }
 @media screen and (min-width: 992px) {
- 
   .services-center {
+    
     grid-template-columns: 1fr 1fr 1fr;
   }
 }

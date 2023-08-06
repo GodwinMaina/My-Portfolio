@@ -1,5 +1,7 @@
-import React from "react"
+import React from "react";
+import './Services.css';
 import services from "../../partials/Services";
+
 
 
 const Service = () => {
@@ -7,7 +9,7 @@ const Service = () => {
     <section className="section bg-grey">
 
     <h2 className="service-section-title">
-  my  Services/what-i-do</h2>
+  my  Services</h2>
     
      <div className="section-underline"></div>
     
