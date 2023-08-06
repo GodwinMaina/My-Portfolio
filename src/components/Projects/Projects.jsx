@@ -15,13 +15,15 @@ const Projects = () => {
     <div class="item-projects img-1">
     <div class="img-overlay"></div>
     <a href="https://" target="_blank" rel="noopener noreferrer">
-    <h3>molynew</h3>
-        <p>Project at molynew 2022 </p></a>
+    <h3>ASAP</h3>
+        <p></p></a>
   </div>
  <div class="item-projects img-2">
   <a href="https://molyhost.com" target="_blank" rel="noopener noreferrer">
-  <h3>Molyhost </h3>
-  <p>Site made to test and improve my knowledge with react and APIs.</p>
+  <h3>ASAP </h3>
+  <p>To https://github.com/GodwinTerrific/Godwin-Portfolio.git
+ * [new branch]        main -> main
+branch 'main' set up to track 'origin/main'..</p>
     </a>
  </div>
    
