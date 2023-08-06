@@ -1,0 +1,172 @@
+/*
+=============== 
+Hero
+===============
+*/
+/* underline added to globals */
+.hero {
+  margin-top: 0rem;
+  padding-top: 5rem;
+  margin-bottom :2rem; ;
+  height: 100%;
+  background: var( --bgColor);
+  position: relative;
+  color: white;
+
+}
+
+.hero-center {
+  height: 100%;
+  display: grid;
+  align-items: center;
+}
+
+.hero .underline {
+  margin-bottom: 0.5rem;
+  margin-left: 0;
+}
+.hero-info {
+  background: var( --bgColor);
+   grid-row: 1/1;
+    grid-column: repeat(2,1fr);
+}
+.hero-img {
+  display: none;
+}
+.hero-img-svg {
+   width: 100%;
+   border-radius: 30rem;
+    height: 300px;
+    position: relative;
+    display: block;
+     grid-row: 1/1;
+    grid-column: 7/-1;
+} 
+
+.hero-info h4 {
+  color: var(--clr-grey-5);
+}
+.hero-icons {
+  justify-items: flex-start;
+}
+.hero .btn {
+  margin-top: 1.25rem;
+}
+
+@media screen and (min-width: 992px) {
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 60%;
+    right: 0;
+    bottom: 0;
+    background: var(--clr-white);
+  }
+  .hero-center {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .hero h4 {
+    font-size: 0.85rem;
+  }
+  .hero-info {
+    grid-row: 1/1;
+    grid-column: 1 / span 8;
+  }
+  .hero-img {
+    display: block;
+    grid-row: 1/1;
+    grid-column: 7/-1;
+  }
+  .hero-img-svg {
+    width: 100%;
+    grid-column:span 11;
+    border-radius: 30rem;
+    height: 400px;
+    position: relative;
+    display: block;
+  
+    /* grid-row: 1/1;
+    grid-column: 7/-1; */
+  }
+}
+@media screen and (min-width: 1170px) {
+  .hero h4 {
+    font-size: 1rem;
+  }
+
+  .hero-info {
+    grid-column: 1 / span 8;
+  }
+
+  .hero h4 {
+    line-height: 1;
+  }
+}
+
+
+
+
+
+
+
+
+/* styles-before */
+
+/* 
+
+.home{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+
+}
+
+
+.home-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.home-name{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Targeting first child of name*/
+/* .home-name >:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+.home-name >:nth-child(2){
+
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.home-name >:nth-child(3){
+
+    font-weight: 100;
+    font-size: 15px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.home-button{
+    width: 8rem;
+    height:3rem;
+}
+
+
+.home-right{
+    flex: 1;
+}
+ */ 
