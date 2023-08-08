@@ -52,7 +52,7 @@ let slider= setInterval(()=>{
 <section className="project">
   <h2 className="service-section-title"
    style={{paddingTop:"1rem"}}>My Projects</h2>   
- <div className="section-underline"></div>
+ <div className="section-underline">{setProject}</div>
 
     
 <div className='project-center'>
