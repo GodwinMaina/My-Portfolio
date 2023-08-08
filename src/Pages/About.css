@@ -12,6 +12,15 @@
 }
 
 
+.h{
+  letter-spacing: var(--spacing);
+  text-transform: none;
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+
 .hero-photo {
   
   width: 100%;
@@ -41,6 +50,14 @@
   padding: 20px;
   border-radius: 40rem;
 
+}
+
+.h {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
 }
   
 }
@@ -76,8 +93,16 @@
   margin-top:-4rem ;
   margin-right:4rem ;
   margin-left: -15rem;
+  letter-spacing: 10px;
+}
 
 
+.h {
+  letter-spacing: var(--spacing);
+  text-transform: none;
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
 }
 }
 

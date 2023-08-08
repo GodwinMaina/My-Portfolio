@@ -13,12 +13,12 @@ const services = [
     id: 2,
     icon: <FaSketch className="service-icon" />,
     title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `I-design-awesome-fronted-web-using-difrerent-tools`,
   },
   {
     id: 3,
     icon: <FaBloggerB className="service-icon" />,
-    title: "Tech-Writing",
+    title: "Tech-Blogging",
     text: `I-a-a-tech-blogger-and-I-write-articles-about-what-i-hae-learnt-which-are-y-blogs-to-also-share-knowldge.`,
   },
 ]

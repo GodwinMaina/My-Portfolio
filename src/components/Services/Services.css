@@ -1,10 +1,4 @@
 
-
-/*
-=============== 
-Services
-===============
-*/
 .service {
   background: var(--clr-white);
   padding: 3rem 1.5rem;
@@ -34,6 +28,8 @@ Services
 }
 .service:hover p {
   color: var(--clr-primary-9);
+  font-weight: bold;
+  font-size: larger;
 }
 .service:hover .underline {
   background: var(--clr-primary-9);

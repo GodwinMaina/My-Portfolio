@@ -7,6 +7,7 @@ import {
 } from "react-icons/fa"
 
 const socialLinks = [
+ 
   {
     id: 1,
     icon: <FaTwitter className="social-icon"></FaTwitter>,

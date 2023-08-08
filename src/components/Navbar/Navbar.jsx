@@ -7,6 +7,7 @@ import {FaBars } from "react-icons/fa";
 import G from "../../assets/images/G.png";
 import  {AppContext}  from  '../../Context.js'
 import Sidebar from '../Sidebar/Sidebar';
+// import Toggle from '../Toggle/Toggle';
 
 
 const Navbar = ()=> {
@@ -17,7 +18,9 @@ const {toggleSidebar}=useContext(AppContext);
  <div  className='nav-center'>
   <div className='nav-header'>
   <Link to='/' >
-  <img src={G} alt='Godwin' style={{width:'65px',height:'70px'}}/></Link>
+  <img src={G} alt='Godwin' style={{width:'65px',height:'70px'}}/>
+  </Link>
+ {/* <Toggle/> */}
   {/* <div style={{margin:'10px'}}>{new Date().getFullYear()}</div> */}
    <button type="button" className="toggle-btn" onClick={toggleSidebar}>
             <FaBars />

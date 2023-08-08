@@ -31,9 +31,9 @@ const Contact = () => {
  
       <section className="contact-page">
       
-      <div class="section-title">
+      <div className="section-title">
         <h2>Contact-me</h2>
-        <div class="underline"></div>
+        <div className="underline"></div>
       </div>
         <article className="contact-form">
           <h3>Get in-Touch</h3>
@@ -76,7 +76,7 @@ const Contact = () => {
          
           </form>
         </article>
-          <div className='sent'>{done&&"Message-succesfully-recevied."}</div> 
+          <div className='sent'>{done&&"Message-succesfully-recevied!..."}</div> 
       </section>
 
   )

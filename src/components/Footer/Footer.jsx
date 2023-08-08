@@ -1,9 +1,11 @@
 import React from "react"
 import './Footer.css';
 import socialLinks from "../../partials/SocialLinks"
+import { FaArrowUp } from "react-icons/fa";
 
 const Footer = () => {
   return (
+    <>
     <footer className="footer">
       <div>
         <div className="footer-links social-links">
@@ -21,7 +23,11 @@ const Footer = () => {
     
         </h4>
     </div>
+  
     </footer>
+    <a href="/" className="top-link"><FaArrowUp/></a> 
+
+    </>
   )
 }
 

@@ -20,7 +20,7 @@ const Home = () => {
 
     return (
       <>
-    <header className="hero">
+    <div className="hero" >
       <section className="section-center hero-center">
         <article className="hero-info">
         <h1>Welcome</h1>
@@ -29,7 +29,7 @@ const Home = () => {
             <h1>i'm Godwin</h1>
             <h3>
              <Typewriter
-            words={['A Developer', 'Tech Writer','Freelancer','Photographer',"and Player"]}
+            words={['A Developer', 'Tech Writer','Freelancer','Entreprenuer','Photographer',"and Player"]}
             loop={0}
             cursor
             cursorStyle=','
@@ -54,15 +54,9 @@ const Home = () => {
           </div>
         </article>
 
-        {/* <img
-          src={hero}
-          alt="portfolio"
-          className="hero-img"
-          placeholder="blurred"
-        /> */}
-        <img src={Ipng} alt="portfolio" className="hero-img-svg" />
+    <img src={Ipng} alt="portfolio" className="hero-img-svg" />
       </section>
-    </header>
+    </div>
 
   <About/>
 
@@ -81,32 +75,3 @@ const Home = () => {
 }
  
 export default Home;
-
-
-
-
-// previous Home page setup
-
-// ( 
-
-//     <div className="home">
-
-//        <div className="home-left">
-
-//         <div className="home-name"> <span>Hello I'm </span>
-//         <span>Godwin</span>
-//         <span>Fronted developer with high level of experience in web designing, development & producing Quality work.</span>
-//         </div>
-
-//         <button className="home-button button">Hire Me</button>
-//      </div>
-
-//      <div className="home-right">
-
-    
-     
-     
-//      </div>
-
-//     </div>
-//      )

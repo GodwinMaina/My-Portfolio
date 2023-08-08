@@ -10,9 +10,9 @@ const About = () => {
   return (
 
 <>
-    <div class="section-title about-title">
+    <div className="section-title about-title">
             <h2>about me</h2>
-            <div class="underline"></div>
+            <div className="underline"></div>
           </div>
 
     <section className='about-container'>
@@ -25,28 +25,35 @@ const About = () => {
 
 
    <div>
-        <article className='about-text'>
+  <article className='about-text'>
+  <h6 className='h'>
+     Who am I?   <br></br><br></br>
 
-        Who am I?<br></br><br></br>
-        
-        I'm an-undergraduate-fro-karatina-uniersity-where-i-studied-coputer-science-from Nairobi Kenya. I am currently studying computer science Karatina University, and
-        started my career in IT at Bitbyte , a company I still work with, I am passionate about systems 
-        automation and I also work as a freelancer. To learn more about my skills and my career click 
-        and download my resume.
+    I am an undergraduate with a degree in computer science. Currently learning and implementing 
+     projects to add my knowledge in using  different technologies.
+     <br></br><br></br>
+     I am more specific to fronted development where I am conversant with Javascript, Typescript, 
+     ReactJS, HTML/CSS, Tailwind CSS and working with External API’s.
+
+    <br></br><br></br>
+
+  For more about me you can download my CV/Resume below. 
+
+     
+  </h6>
+     
+
                      
   </article>
+
   <br></br><br></br>
-        <button
-        className='btn'>
-   <a href={Resume} target="_blank" rel="noopener noreferrer" className='btn'>Resume/CV</a>
-   {/* https://twitter.com/GodwinTerrific */}
-</button>
+        <button className='btn'
+        style={{margin:"20px"}}>
+   <a href={Resume} target="_blank" rel="noopener noreferrer" className='btn'>CV/Resume</a></button>
      
    </div>
   </section>
   </>
-
-    
    
   )
 }

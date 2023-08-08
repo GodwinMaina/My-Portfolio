@@ -1,15 +1,10 @@
-/*
-=============== 
-Blog
-===============
-*/
+
 .blog {
   background: var(--clr-grey-10);
 }
 .card {
   height: 27rem;
   position: relative;
-  /* talk later */
   -webkit-perspective: 1500px;
   perspective: 1500px;
 }
@@ -80,4 +75,10 @@ Blog
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   gap: 3rem 3rem;
+}
+
+
+.styleImages{
+
+  width: 100%;
 }

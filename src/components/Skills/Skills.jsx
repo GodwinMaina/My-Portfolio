@@ -40,13 +40,13 @@ const Skills = () => {
             </div>
           </div>
        
-          <div class="skill"
+          <div className="skill"
           // onMouseOver={Exp2yrs}
           >
             <p>React</p>
-            <div class="skill-container">
-              <div class="skill-value value-70"></div>
-              <p class="skill-text skill-text-70">
+            <div className="skill-container">
+              <div className="skill-value value-70"></div>
+              <p className="skill-text skill-text-70">
                 70%
               </p>
             </div>
@@ -56,22 +56,22 @@ const Skills = () => {
         <article>
           <h3>On-Learning-track</h3>
       
-          <div class="skill">
+          <div className="skill">
             <p>Node-JS</p>
-            <div class="skill-container">
-              <div class="skill-value value-30"></div>
-              <p class="skill-text skill-text-30">
+            <div className="skill-container">
+              <div className="skill-value value-30"></div>
+              <p className="skill-text skill-text-30">
                 30%
               </p>
             </div>
           </div>
  
       
-          <div class="skill">
+          <div className="skill">
             <p>Python</p>
-            <div class="skill-container">
-              <div class="skill-value value-20"></div>
-              <p class="skill-text skill-text-20">
+            <div className="skill-container">
+              <div className="skill-value value-20"></div>
+              <p className="skill-text skill-text-20">
                 20%
               </p>
             </div>

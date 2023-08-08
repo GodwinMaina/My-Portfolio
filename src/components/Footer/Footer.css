@@ -1,8 +1,4 @@
-/*
-===============
-Footer
-===============
-*/
+
 .footer {
   height: 9rem;
   background: #222;
@@ -14,7 +10,7 @@ Footer
   margin-top: 0.5rem;
   color: var(--clr-white);
   font-weight: normal;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .footer h4 span {
   color: var(--clr-primary-5);
@@ -27,4 +23,21 @@ Footer
 }
 .footer .social-link:hover {
   color: var(--clr-primary-5);
+}
+
+.top-link {
+  font-size: 1.rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  background: lightskyblue;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius);
+  color: var(--clr-white);
+  animation: bounce 2s ease-in-out infinite;
+  /* visibility: hidden; */
+  /* z-index: -100; */
 }

@@ -1,9 +1,25 @@
-/*
-=============== 
-Hero
-===============
-*/
-/* underline added to globals */
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: var(--ff-primary);
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
 .hero {
   margin-top: 0rem;
   padding-top: 5rem;
@@ -34,9 +50,9 @@ Hero
   display: none;
 }
 .hero-img-svg {
-   width: 100%;
+   width: 90%;
    border-radius: 30rem;
-    height: 300px;
+    height: 250px;
     position: relative;
     display: block;
      grid-row: 1/1;
@@ -53,7 +69,19 @@ Hero
   margin-top: 1.25rem;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 600px){
+   .hero-img-svg {
+    /* grid-column:span 11; */
+    width: 90%;
+    border-radius: 30rem;
+    height: 400px;
+    position: relative;
+    /* display: block; */
+  
+}
+}
+
+@media screen and (min-width: 820px) {
   .hero::before {
     content: "";
     position: absolute;
@@ -66,6 +94,10 @@ Hero
   .hero-center {
     grid-template-columns: repeat(12, 1fr);
   }
+
+  h1 {
+  font-size: 2rem;
+}
 
   .hero h4 {
     font-size: 0.85rem;
@@ -98,7 +130,10 @@ Hero
 
   .hero-info {
     grid-column: 1 / span 8;
-  }
+  }h1 {
+  font-size: 3rem;
+}
+
 
   .hero h4 {
     line-height: 1;
@@ -106,13 +141,6 @@ Hero
 }
 
 
-
-
-
-
-
-
-/* styles-before */
 
 /* 
 
