@@ -7,6 +7,7 @@ const Contact = () => {
   const[name,setName]=useState('');
   const[email,setEmail]=useState('');
   const[message,setMessage]=useState('');
+   const[done,setDone]=useState(false);
    const form = useRef();
 
   const sendEmail=(e)=>{
@@ -26,7 +27,6 @@ const Contact = () => {
   
   }
 
-  const[done,setDone]=useState(false)
   return (
  
       <section className="contact-page">
@@ -83,4 +83,4 @@ const Contact = () => {
 
 }
 
-export default Contact
+export default Contact;

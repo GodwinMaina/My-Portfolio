@@ -4,7 +4,7 @@ import './Skills.css';
 const Skills = () => {
 
   // const Exp3yrs="3-year-experiene-with-this-langage"
-  //  const Exp2yrs="3-year-experiene-with-this-langage"
+  
   return (
     <div> 
     <section className="section skills">

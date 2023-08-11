@@ -1,6 +1,5 @@
 import React from "react"
-import { FaCode, FaSketch,FaBloggerB } from "react-icons/fa"
-
+import { FaCode, FaSketch,FaBloggerB } from "react-icons/fa";
 
 const services = [
   {

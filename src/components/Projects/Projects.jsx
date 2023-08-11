@@ -38,7 +38,7 @@ let slider= setInterval(()=>{
     setIndex(index+1)
 
     //3-sec
-  },5000);
+  },10000);
 
   //clear-Interal
   return ()=>clearInterval(slider)

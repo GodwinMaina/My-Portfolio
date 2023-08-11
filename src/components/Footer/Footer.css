@@ -26,7 +26,7 @@
 }
 
 .top-link {
-  font-size: 1.rem;
+  font-size: 1.5rem;
   position: fixed;
   bottom: 3rem;
   right: 3rem;
@@ -40,4 +40,9 @@
   animation: bounce 2s ease-in-out infinite;
   /* visibility: hidden; */
   /* z-index: -100; */
+}
+
+.show-link {
+  visibility: visible;
+  z-index: 100;
 }

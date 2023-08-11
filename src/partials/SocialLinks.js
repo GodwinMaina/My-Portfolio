@@ -1,13 +1,7 @@
 import React from "react"
-import {
-    FaTwitter,
-    FaWhatsapp,
-    FaGithubSquare,
-    FaLinkedin,
-} from "react-icons/fa"
+import {FaTwitter,FaWhatsapp,FaGithubSquare,FaLinkedin,} from "react-icons/fa"
 
-const socialLinks = [
- 
+const socialLinks = [ 
   {
     id: 1,
     icon: <FaTwitter className="social-icon"></FaTwitter>,

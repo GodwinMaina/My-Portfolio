@@ -6,16 +6,13 @@ import Projects from '../Projects/Projects';
 import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
 import Skills from '../Skills/Skills';
-
 import './Home.css';
 import socialLinks from '../../partials/SocialLinks';
-// import hero from "../../assets/images/hero.svg";
 import Ipng from "../../assets/images/I.png";
 import { Typewriter } from 'react-simple-typewriter'
 
 
 const Home = () => {
-
 
 
     return (
@@ -59,19 +56,13 @@ const Home = () => {
     </div>
 
   <About/>
-
-<Service/>
-
- <Projects/>
-
- <Skills/>
-
- <Blogs/>
-
- <Contact/>
+  <Service/>
+  <Projects/>
+  <Skills/>
+  <Blogs/>
+  <Contact/>
  </>
-
-  )
+  );
 }
  
 export default Home;

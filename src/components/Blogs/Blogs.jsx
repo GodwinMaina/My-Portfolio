@@ -12,7 +12,7 @@ const Blogs = () => {
      
     <section className="section blog">
       <div className="section-title">
-        <h2>blogs</h2>
+        <h2>my blogs</h2>
         <div className="underline"></div>
       </div>
    
