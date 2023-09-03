@@ -3,25 +3,24 @@ import './Projects.css';
 import Projectoz from '../../partials/Project'; 
 import { FaChevronLeft,FaChevronRight} from "react-icons/fa";
 
-// import Slider from "react-slider";
 const Projects = () => {
 
   const [project,setProject]=useState(Projectoz);
   const [index,setIndex]=useState(0);
 
-//useEffect-to-know-when-we-run-out-of-list-index
-//chck-state-alue-and-flip-around--if-negatie-back-to-zero-bigger-than-index-flip-to-zero
+//useEffect to know when we run out of list index
+//check state value and-flip around if -ve set to zero, bigger than index flip to zero
 
   useEffect(()=>{
 
-    //first-get-last-index-of-array
+    //getting last index of array
     const lastIndex=project.length-1;
-    // check-index-if-negatie-then-set-to-last-index
+    // check index if -ve and set it to last index
     if(index<0) {
       setIndex(lastIndex)
     }
-    //if-we-run-out-of-ites-index-bigger-than-last-ite-then-go-to-first-ite
 
+    //if run out of index and bigger than last index go to first item
     if(index>lastIndex){
       setIndex(0);
     }
@@ -30,7 +29,7 @@ const Projects = () => {
 
 
 //useEffect-to-Autoslide
-//eerytie--our--index--changes--setInteral-run
+//everytime index changes setInterval runs
 
 useEffect(()=>{
 let slider= setInterval(()=>{
@@ -40,7 +39,7 @@ let slider= setInterval(()=>{
     //3-sec
   },10000);
 
-  //clear-Interal
+  //clear Interval
   return ()=>clearInterval(slider)
 },[index]);
 
@@ -97,19 +96,51 @@ return(
 
 <div>
   <h2  style={{textAlign:"center"}}>Working-On-Currently....</h2>
+  <section className='workingon-projects'>
+
   <div>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odit laboriosam ullam? Eaque, vero deleniti provident officiis explicabo similique id ab deserunt voluptas beatae delectuid ab deserunt voluptas beatae delectus harum ducimus, dolores ullam odit.<a href="https://" target="_blan" rel="noopener noreferrer">#</a>
-     </p>
-
-     <p style={{textAlign:"center"}} >To access more of my projects visit my github-account
-     <br />
-
-    <button className='btn'><a href="https://github.com/GodwinTerrific" target="_blank" rel="noopener noreferrer" >TO-my-github </a></button>
-     </p>
-   
-   </div>
+  <h3>course Managment App</h3>
+  <p>This project will be about course management</p>
   </div>
 
+
+  <div>
+  <h3>E-commerce site</h3>
+  <p>This project will be about course management</p>
+  </div>
+
+<div>
+  <h3>Terrific Airways</h3>
+  <p>This project will be about booking flight tickets and purchasing tickets.</p>
+  </div>
+
+
+<div>
+  <h3>Room Allocation</h3>
+  <p>This project will be about room allocation where student book room online</p>
+  </div>
+
+
+<div>
+  <h3>Terrific Hotel</h3>
+  <p>This project will be about hotel you can order food, book a room and more.</p>
+  </div>
+
+
+
+
+
+ 
+  </section>
+
+
+     <h3  className='projecth3' style={{textAlign:"center"}} >To access more of my projects visit my github-account
+     <br />
+    <button className='btn To-github-btn'><a href="https://github.com/GodwinTerrific" target="_blank" rel="noopener noreferrer" >TO-my-github </a></button>
+     </h3>
+   
+
+   </div>
   </section>
 
     

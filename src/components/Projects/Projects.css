@@ -5,8 +5,7 @@
   margin:0 auto;
   margin-top:1rem;
   margin-bottom:1rem;
-  background:var(--clr-grey-8);
-  
+  background:var(--clr-grey-8);  
 }
 
 
@@ -19,10 +18,10 @@
 
 .project-center {
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 1rem;
   width: 85vw;
   /* set-height */
-  height: 450px;
+  height: 450px; 
   max-width: 1700px;
   text-align: center;
   position: relative;
@@ -122,11 +121,45 @@ header.nextSlide {
 } 
 
 
+.To-github-btn{
+  margin-top:1rem ;
+}
+
+.workingon-projects{
+
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin:2rem;
+  gap:3rem;
+  
+ 
+}
 
 
+.projecth3{
+  font-size: 0.7rem;
+  font-weight:bolder;
+    margin-top:4rem ;
+}
+@media screen and (min-width: 761px) {
+.projecth3{
+font-size: 1.25rem;
+  margin-top:2rem ;
+}
+}
 
 
+@media screen and (min-width: 720px) {
+  .workingon-projects{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin:2rem;
+  gap:2rem;
+  
+ 
+}
 
+}
 
 
 

@@ -216,49 +216,6 @@ p {
 }
 
 
-/*
-===============
-Pages
-*/
-
-.project-template-page,
-.projects-page,
-.error-page,
-.about-page,
-.contact-page {
-  background: var(--clr-grey-10);
-  min-height: calc(100vh - 5rem - 9rem);
-}
-.error-page {
-  display: grid;
-  place-items: center;
-  background: var(--clr-primary-10);
-  text-align: center;
-}
-.error-page h1 {
-  text-transform: uppercase;
-  color: var(--clr-primary-1);
-  margin-bottom: 2rem;
-}
-
-/*Project Template Page*/
-.project-template-page {
-  padding-top: 3rem;
-  text-align: center;
-}
-.project-template-page h2 {
-  text-transform: uppercase;
-}
-.project-template-page p {
-  max-width: 35em;
-  margin: 0 auto;
-  margin-top: 2rem;
-}
-
-
-
-
-
 
 
 

@@ -52,11 +52,33 @@ const Blogs = () => {
               </div>
             </div>
           </div>
-    
           <div className="card-side card-back">
             <button className="btn">read more</button>
           </div>
         </div>
+
+
+        <div className="card">
+          <div className="card-side card-front">
+            <img src={jpeg2} alt="" className='styleImages'/>
+            <div className="card-info">
+              <h4>Dockerizing React Application</h4>
+              <p>
+              How to use Docker to dockerize react applications
+              </p>
+              <div className="card-footer">
+                <img src={jpeg2} alt="author" />
+                <p>7 min read</p>
+              </div>
+            </div>
+          </div>
+          <div className="card-side card-back">
+          <a href='https://twitter.com' >
+           <button className="btn">read more</button>
+          </a>
+          </div>
+        </div>
+       
       
         <div className="card">
           <div className="card-side card-front">

@@ -4,35 +4,35 @@ const Projectoz=[
     {
         id:1,
         Image:"",
-        title:"Lorem ipsum1 ",
-        stack:'REACT',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odit laboriosam ullam? Eaque, vero deleniti provident officiis explicabo similique id ab deserunt voluptas beatae delectus harum ducimus, dolores ullam odit"
+        title:"Terrific Tours ",
+        stack:'REACT JS, HTML AND CSS',
+        Description:"Project with Good EXploration Tours"
     },
     
     
     {
         id:2,
         Image:"",
-        title:"Lorem ipsum2 ",
-         stack:'REACT',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odit laboriosam ullam? Eaque, vero deleniti provident officiis explicabo similique id ab deserunt voluptas beatae delectus harum ducimus, dolores ullam odit"
+        title:"Task Manager App ",
+         stack:'REACT, HTML & CSS',
+        Description:"This project creates a task web app which we can add task, edit and delete task as well."
     },
    
     {
         id:3,
         Image:"",
-        title:"Lorem ipsum3 ",
-         stack:'REACTJS',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odit laboriosam ullam? Eaque, vero deleniti provident officiis explicabo similique id ab deserunt voluptas beatae delectus harum ducimus, dolores ullam odit"
+        title:"DOCKERIZING REACT  ",
+         stack:'DOCKER, REACT AND CSS',
+        Description:"This project teaches how to dockerize React projects using Docker."
     },
 
   
     {
         id:4,
         Image:"",
-        title:"Lorem ipsum4 ",
-         stack:'REACT',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odit laboriosam ullam? Eaque, vero deleniti provident officiis explicabo similique id ab deserunt voluptas beatae delectus harum ducimus, dolores ullam odit"
+        title:"RECIPE  Finder",
+         stack:'REACT AND Tailwind CSS',
+        Description:"This project is for Recipe finder, filter by ingredients and uses API to retrieve recipe data"
     },
 
     
@@ -40,9 +40,9 @@ const Projectoz=[
     {
         id:5,
         Image:"",
-        title:'Lorem ipsum5 ',
-         stack:'REACT',
-        Description:"Lorem ipsum5 dolor sit amet consectetur adipisicing elit. Iure odit laboriosam ullam? Eaque, vero deleniti provident officiis explicabo similique id ab deserunt voluptas beatae delectus harum ducimus, dolores ullam odit"
+        title:'E-Commerce ',
+         stack:'REACT, HTML and Tailwind CSS',
+        Description:"This Ecommerce site has product listing, search functionality, shopping cart and integrated payment."
     },
 
 ]

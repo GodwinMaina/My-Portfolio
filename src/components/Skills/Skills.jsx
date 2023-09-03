@@ -2,8 +2,6 @@ import React from 'react'
 import './Skills.css';
 
 const Skills = () => {
-
-  // const Exp3yrs="3-year-experiene-with-this-langage"
   
   return (
     <div> 
@@ -15,11 +13,9 @@ const Skills = () => {
  
       <div  className="section-center skills-center">
         <article>
-          <h3>front end</h3>
+          <h3>Applying</h3>
         
-          <div  className="skill"
-          // onMouseOver={Exp3yrs}
-          >
+          <div  className="skill">
             <p>HTML/CSS</p>
             <div  className="skill-container">
               <div  className="skill-value  value-80"></div>
@@ -40,14 +36,32 @@ const Skills = () => {
             </div>
           </div>
        
-          <div className="skill"
-          // onMouseOver={Exp2yrs}
-          >
-            <p>React</p>
+          <div className="skill">
+            <p>React-JS</p>
             <div className="skill-container">
               <div className="skill-value value-70"></div>
               <p className="skill-text skill-text-70">
                 70%
+              </p>
+            </div>
+          </div>
+
+           <div className="skill">
+            <p>Docker</p>
+            <div className="skill-container">
+              <div className="skill-value value-70"></div>
+              <p className="skill-text skill-text-70">
+                70%
+              </p>
+            </div>
+          </div>
+
+           <div className="skill">
+            <p>Tailwind css</p>
+            <div className="skill-container">
+              <div className="skill-value value-80"></div>
+              <p className="skill-text skill-text-80">
+                80%
               </p>
             </div>
           </div>

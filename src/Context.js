@@ -4,9 +4,9 @@ import { useContext } from 'react';
 
 
  const AppContext=createContext();
-//one-coponent-for-proider-and-the-other-for-consuer
+//one component for provider and the other for consumer
 
-//you-pass-children-since-we-wil-wrap-our-whole-app-in-AppProider.
+//we pass children since wil wrap whole app in AppProider.
 const  AppProvider = ({children}) => {
   
     const [sidebarOpen,setSidebarOpen]=useState(false)
@@ -26,7 +26,7 @@ const  AppProvider = ({children}) => {
     </AppContext.Provider>
   )
 }
-//custo-hook
+//custom hook
 export const  useGlobalContext=()=>{
     return useContext(AppContext)
 }

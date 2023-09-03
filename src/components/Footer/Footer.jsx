@@ -18,7 +18,7 @@ const Footer = () => {
           })}
         </div>
         <h4>
-       Godwin &copy;{new Date().getFullYear()}
+       &copy;{new Date().getFullYear()} Godwin
           <span></span>
     
         </h4>
