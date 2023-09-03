@@ -26,7 +26,7 @@ const Home = () => {
             <h1>i'm Godwin</h1>
             <h3>
              <Typewriter
-            words={['A Developer', 'Tech Writer','Freelancer','Entreprenuer','Photographer',"and Player"]}
+            words={['A Developer', 'Tech Writer','Freelancer','businessman','Photographer',"and Player"]}
             loop={0}
             cursor
             cursorStyle=','
