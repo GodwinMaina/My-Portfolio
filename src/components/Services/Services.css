@@ -42,6 +42,7 @@
     -moz-column-gap: 2rem;
     column-gap: 2rem;
   }
+
 }
 @media screen and (min-width: 992px) {
   .services-center {

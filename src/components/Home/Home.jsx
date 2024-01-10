@@ -20,7 +20,7 @@ const Home = () => {
     <div className="hero" >
       <section className="section-center hero-center">
         <article className="hero-info">
-        <h1>Welcome</h1>
+        <h1>Welcome </h1>
           <div>
             <div className="underline"></div>
             <h1>i'm Godwin</h1>
